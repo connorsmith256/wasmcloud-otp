@@ -51,7 +51,7 @@ defmodule HostCore.Application do
     started = Supervisor.start_link(children, opts)
 
     Logger.info(
-      "Started wasmCloud OTP Host Runtime",
+      "Started wasmCloud OTP Host Runtime, Hello Roman",
       version: "#{to_string(Application.spec(:host_core, :vsn))}"
     )
 
